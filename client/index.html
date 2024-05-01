@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./main.css">
+    <title>FIRST SOLIDITY APP</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto text-bg-dark p-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-dark-blue text-light">
+                    <div class="card-header">
+                        Your Wallet
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Wallet address</h5>
+                        <p class="card-text">5217635765326251376</p>
+                    </div>
+                </div>
+                <h3>ENTER DATA</h3>
+                <form class="text-center">
+                    <input type="text" class="form-control my-2" placeholder="Task Name">
+                    <div class="form-floating">
+                        <textarea class="form-control" id="floatingTextarea" placeholder="comment here" style="height: 200px;"></textarea>
+                        <label for="floatingTextarea" class="text-dark">Task</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary my-2" style="width: 90%;">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-8">
+                <h2>DATA</h2>
+                <div class="row">
+                    <div class="card bg-dark-blue text-light my-2">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-between">
+                                Title
+                                <div class="form-check form-switch">
+                                    <input type="checkbox" role="switch" class="form-check-input">
+                                </div>
+                            </h5>
+                            <div class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam officia dignissimos commodi veritatis blanditiis id necessitatibus, voluptatum et esse tenetur eligendi obcaecati quo architecto dolor quisquam iure, eos quis?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

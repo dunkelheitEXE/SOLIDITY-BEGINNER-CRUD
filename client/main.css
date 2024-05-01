@@ -1,0 +1,12 @@
+
+:root {
+    --color-dark-blue: #1D4967;
+}
+
+body {
+    background: rgb(39, 50, 66);
+}
+
+.bg-dark-blue {
+    background-color: var(--color-dark-blue);
+}
